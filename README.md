@@ -2,4 +2,4 @@
 
 Page control with scrollView
 
-![](PageControlGif.gif)
+!()[PageControlGif.gif]
