@@ -2,4 +2,4 @@
 
 Page control with scrollView
 
-![](PageControlGif.gif)
+![](https://github.com/active-sludge/PageControl/blob/main/PageControlGif.gif?raw=true)
