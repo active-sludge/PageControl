@@ -42,6 +42,8 @@ class ViewController: UIViewController {
         pageControl.frame = CGRect(x: 10, y: view.frame.size.height-100, width: view.frame.size.width-20, height: 70)
         scrollView.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height-100)
         
+        
+//        ScrollView already has two subviews which are vertical and horizontal scroll indicators. Below if statement ensures that configureScrollView method is called everytime scrollView succesfully created.
         if scrollView.subviews.count == 2 {
             configureScrollView()
         }
